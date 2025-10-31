@@ -25,31 +25,184 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SLOT TIME TABLE (22008626)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f9ff;
+    }
 
-    </head>
-    <body>
-        <center>
-            <img src="/slot_timetable/test3/slotapp/static/logo.png" height= "100" width="500">
-        </center>
-        <table border="1" cellpadding="10" align="center" bgcolor="cyan">
-            <caption><h2>Slot Time-Table</h2></caption>
-            <tr><th>Day/Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th></tr>
-            <tr><th>8-10</th><td bgcolor="red">Web</td><td>CN</td><td>DBMS</td></tr>
-            <tr><th>10-12</th><td>Web</td><td>CN</td><td>DBMS</td></tr>
-            <tr align="center"><th>12-1</th><td colspan="3">Lunch</td></tr>
-            <tr><th>1-3</th><td>Web</td><td>CN</td><td>DBMS</td></tr>
-            <tr><th>3-5</th><td>Web</td><td>CN</td><td>DBMS</td></tr>
-        </table>
-    </body>
+    h2 {
+      color: darkblue;
+      margin-bottom: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #FFD700; /* Yellow */
+    }
+
+    td {
+      background-color: #00FFFF; /* Light blue */
+    }
+
+    .lunch {
+      background-color: #FFFFFF;
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+
+    .subject-table th {
+      background-color: #F5DEB3;
+    }
+
+    .subject-table td {
+      background-color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+    <img src="./logo.png">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px 20px;
+  }
+  th {
+    background-color: #ffeb3b; /* yellow */
+  }
+  td {
+    background-color: #00ffff; /* cyan */
+  }
+  .header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .lunch {
+    background-color: white;
+    font-weight: bold;
+  }
+  .subject-table th {
+    background-color: #d9d9d9;
+  }
+</style>
+</head>
+<body>
+
+  <h2>Slot Time Table -S.Jagandra Vinu Siva </h2>
+<h4>(25001783)</h4>
+
+<table>
+  <tr>
+    <th>Day/Time</th>
+    <th>8-10</th>
+    <th>10-12</th>
+    <th>12-1</th>
+    <th>1-3</th>
+    <th>3-5</th>
+  </tr>
+  <tr>
+    <th>Monday</th>
+    <td>FWAD</td>
+    <td>ENGLISH</td>
+    <td class="lunch">LUNCH</td>
+    <td></td>
+    <td>OS</td>
+  </tr>
+  <tr>
+    <th>Tuesday</th>
+    <td colspan="5">FREE SLOT</td>
+  </tr>
+  <tr>
+    <th>Wednesday</th>
+    <td>CDS</td>
+    <td>MATHS</td>
+    <td class="lunch">LUNCH</td>
+    <td>MENTOR MEET</td>
+    <td>OS</td>
+  </tr>
+  <tr>
+    <th>Thursday</th>
+    <td></td>
+    <td></td>
+    <td class="lunch">LUNCH</td>
+    <td>CA</td>
+    <td>MATHS</td>
+  </tr>
+  <tr>
+    <th>Friday</th>
+    <td>FWAD</td>
+    <td>FOC</td>
+    <td class="lunch">LUNCH</td>
+    <td>ENGLISH</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Saturday</th>
+    <td>CA</td>
+    <td></td>
+    <td class="lunch">LUNCH</td>
+    <td>FOC</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Sunday</th>
+    <td colspan="5">LEAVE</td>
+  </tr>
+</table>
+
+<br>
+
+<table class="subject-table">
+  <tr>
+    <th>S. No.</th>
+    <th>Subject Code</th>
+    <th>Subject Name</th>
+  </tr>
+  <tr><td>1</td><td>19AI414</td><td>Fundamentals of Web Application Development (FWAD)</td></tr>
+  <tr><td>2</td><td>19EN101</td><td>English</td></tr>
+  <tr><td>3</td><td>19CS405</td><td>Operating Systems (OS)</td></tr>
+  <tr><td>4</td><td>19EY708</td><td>Career Development Skills (CDS)</td></tr>
+  <tr><td>5</td><td>19MA222</td><td>Mathematics</td></tr>
+  <tr><td>6</td><td>19CS305</td><td>Computer Architecture (CA)</td></tr>
+  <tr><td>7</td><td>19AI304</td><td>Fundamentals of Computing (FOC)</td></tr>
+  <tr><td>8</td><td>ECA-M</td><td>Mentor Meet</td></tr>
+</table>
+
+</body>
 </html>
-```
 
+```
 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-10-04 083523.png>)
+![alt text](<Screenshot 2025-10-31 085448.png>)
+![alt text](<Screenshot 2025-10-31 085504.png>)
 
 
 
