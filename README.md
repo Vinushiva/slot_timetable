@@ -55,11 +55,11 @@ Execute the program using runserver command.
     }
 
     th {
-      background-color: #FFD700; /* Yellow */
+      background-color: #FFD700;
     }
 
     td {
-      background-color: #00FFFF; /* Light blue */
+      background-color: #00FFFF;
     }
 
     .lunch {
@@ -94,10 +94,10 @@ Execute the program using runserver command.
     padding: 10px 20px;
   }
   th {
-    background-color: #ffeb3b; /* yellow */
+    background-color: #ffeb3b;
   }
   td {
-    background-color: #00ffff; /* cyan */
+    background-color: #00ffff;
   }
   .header {
     font-weight: bold;
